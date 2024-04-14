@@ -8,8 +8,7 @@ import {
   TableContainer,
   TableHead,
   TableHeader,
-  TableRow,
-  SortArrow
+  TableRow
 } from "./SalesTableStyles";
 
 export const SalesTable = () => {
