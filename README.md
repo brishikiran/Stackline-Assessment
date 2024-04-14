@@ -1,31 +1,20 @@
-# React + TypeScript + Vite
+# Stackline Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a solution for the Stackline web developer assessment. It implements a simple product web page using React for the view and Redux for state management. The web page displays data from a JSON file provided as the data source, mimicking a product sales dashboard. The implemented solution closely resembles the provided wire mockup and includes either a graph or a table, as seen in the mockup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Displays product sales data in a visually appealing format.
+- Utilizes Redux for state management.
+- Implements a graph and a table to present the sales data.
+- Supports sorting functionality in the implemented component (graph or table).
+- Responsive design for optimal viewing on different devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Stackline-Assessment
+```bash
+git clone https://github.com/your-username/stackline-assessment.git
